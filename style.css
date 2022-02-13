@@ -1,0 +1,62 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+/*Estilos generales*/
+.titulo{
+    color:#41c4ab;
+    font-size: 24px;
+}
+.colorCajas{
+    background-color:#41c4ab;
+    border: solid 0.5px gray;
+}
+.cajaLateral{
+    background-color: #fafafa;
+    border: solid 1px #edeff2;
+}
+.imagenJavi{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.imagenCafe{
+    width: 80px;
+    height: 100px;
+
+}
+
+main{
+    margin-bottom: 10vh;
+}
+
+
+.contenedor{
+    border: 1px solid gray;
+}
+
+.seccionesTxt{
+    margin-top:5vh;
+    margin-bottom: 10vh;
+}
+
+.tituloEntrada{
+    margin-top:5vh;
+    margin-bottom:5vh;
+}
+
+/*Vista LG */
+
+@media (min-width:1201px){
+    .entrada{
+        margin-top: 5vh;
+        width:55rem;
+    }
+
+    .lateral{
+        width:16.5vw;
+        margin-bottom: 5vh;
+    }
+}
+
