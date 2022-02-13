@@ -60,3 +60,84 @@ main{
     }
 }
 
+.animEntradasCostUno{
+    animation-duration: 2s;
+    animation-name:costado;
+}
+@keyframes costado{
+    from{
+        transform: translateX(-100px);
+        opacity: 0;
+    }
+    to{
+        transform:translateX(0px);
+        opacity: 100;
+
+    }
+}
+.animEntradasCostDos{
+    animation-duration: 4s;
+    animation-name:costado;
+}
+@keyframes costado{
+    from{
+        transform: translateX(-50px);
+        opacity: 0;
+    }
+    to{
+        transform:translateX(0px);
+        opacity: 100;
+
+    }
+}
+
+.animEntradas{
+    
+    animation-duration: 2s;
+    animation-name: entradas;
+}
+
+@keyframes entradas{
+    from{
+        opacity:0;
+        transform:translateY(-100px);
+    }
+    to{
+        opacity:100;
+        transform:translateY(0px);
+    }
+}
+
+.animEntradasUno{
+    
+    animation-duration: 3s;
+    animation-name: entradas;
+}
+
+@keyframes entradas{
+    from{
+        opacity:0;
+        transform:translateY(-100px);
+    }
+    to{
+        opacity:100;
+        transform:translateY(0px);
+    }
+}
+
+.animEntradasDos{
+    
+    animation-duration: 4s;
+    animation-name: entradas;
+}
+
+@keyframes entradas{
+    from{
+        opacity:0;
+        transform:translateY(-100px);
+    }
+    to{
+        opacity:100;
+        transform:translateY(0px);
+    }
+}
